@@ -1,0 +1,211 @@
+/* Globalt kode */
+
+@font-face {
+    font-family: franklinheavy;
+    src: url(franklinheavy.TTF);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.billedstoerrelse {
+    width: 800px;
+    height: 580px;    
+}
+
+header {
+    height: 80px;
+    background-color: #AE0F0A;
+    background-image: url("header.png");
+    background-position: center;
+    background-size: 1550px;
+}
+.timedisplay{
+    color:white;
+    font-size:40px;
+    margin:20px 0 0 10%;
+    font-family: coolvetica, sans-serif;
+    letter-spacing:2px;
+}
+.top {
+    display: flex;
+}
+
+#overskrift{
+    margin-bottom:30px;
+    width:100%;
+}
+#overskrift h1{
+    font-family:coolvetica, sans-serif;
+    color:#FFA300;
+    letter-spacing:3px;
+    font-size:3em;
+    text-align: center;
+    margin-top:50px;
+}
+
+#herestatic1{
+    left:10%;
+    top:65%;
+}
+#herestatic2{
+    left:38%;
+    top:42%;
+}
+#herestatic3{
+    left:39%;
+    top:82%;
+}
+#herestatic4{
+    left:48.5%;
+    top:82%;
+}
+#herestatic5{
+    left:52.8%;
+    top:62%;
+}
+@keyframes offset {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+#pil1{
+    width:16%;
+    top:70%;
+    left:10%;
+    display:none;
+}
+#pil2{
+    width:13.8%;
+    top:48%;
+    left:25.6%;
+    display:none;
+}
+#pil3{
+    width:14.5%;
+    top:74.5%;
+    left:25.6%;
+    display:none;
+}
+#pil4{
+    width:24%;
+    top:74.5%;
+    left:25.6%;
+    display:none;
+}
+#pil5{
+    width:28.5%;
+    top:67%;
+    left:25.6%;
+    display:none;
+}
+.appear{
+    display:block;
+}
+.arrows {
+    position: absolute;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+article {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+aside {
+    width: 26%;
+    margin-left: 5%;
+    margin-top: 2%
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+
+}
+
+/* Alt kode til accordion */
+
+h2{
+    color: #FFA300;
+
+}
+h3 {
+    color: #FFA300;
+    letter-spacing: 2px;
+    font-family:coolvetica, sans-serif;
+    margin-top:10px;
+}
+
+p {
+    font-family: coolvetica, sans-serif;
+    color: #A19C95;
+    font-size: 16px;
+    margin: 5px 0 20px 0;
+    letter-spacing:1px;
+}
+.accordion {
+    background-color: #F7F5F5;
+    display: flex;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 1s;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.accordion img {
+    width: 35px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-image: url("blackbg.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accordion:after {
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active img {
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #fff2D2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

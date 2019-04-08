@@ -1,0 +1,18 @@
+<svg id="pil2" data-name="Pil 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435.18 455.93">
+    <defs>
+        <style>
+        @keyframes offset { to {stroke-dashoffset: 0; } }
+        #guide2 {
+        	animation: offset 1.5s ease forwards; 
+        	stroke-dasharray: 868.764; 
+        	stroke-dashoffset: 868.764;
+            fill: none;
+            stroke: #f8a41a;
+            stroke-miterlimit: 10;
+            stroke-width: 10px;
+        }
+        </style>
+    </defs>
+    <title>pil2.1</title>
+    <polyline id="guide2" points="5.5 455.93 5.5 195.43 422.5 195.43 422.5 19.43 430.5 32.43" />
+</svg>

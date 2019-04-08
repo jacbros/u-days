@@ -1,0 +1,14 @@
+<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 141.06">
+    <defs>
+        <style>
+        .cls-1 {
+            fill: #f8a41a;
+        }
+        </style>
+    </defs>
+    <title>pil1</title>
+    <rect class="cls-1" x="5" y="36.06" width="17" height="53" />
+    <rect class="cls-1" x="5" y="88.06" width="479" height="17" />
+    <rect class="cls-1" x="473" y="88.06" width="17" height="53" />
+    <polygon class="cls-1" points="13.5 0 0 37.06 27 37.06 13.5 0" />
+</svg>
